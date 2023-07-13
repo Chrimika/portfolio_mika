@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Staatliches&display=swap');
+*{
+	padding: 0;
+	margin: 0;
+	font-family: arial,sans-serif;
+	box-sizing: border-box;
+}
+.banner {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background: #D3BAC5;
+	border-radius: 15px;
+	padding: 15px;
+}
+.banner h1 {
+	font-family: font-family: 'Staatliches', cursive;
+	font-size: 1.8rem;
+	color: #000;
+}
+.banner h5 {
+	border-bottom: solid black;
+	padding: 10px;
+	font-family: 'Lobster', cursive;
+}
+.banner span {
+	font-family: 'Staatliches', cursive;
+	background: rgba(1, 151, 145, 0.5);
+	padding: 2px;color: #fff;
+}
+.photo-et-intro {
+	display: flex;
+	flex-direction: row;
+	margin-left: 2% ;
+	padding: 10px;
+	border-bottom: 2px solid black;
+}
+.photo-et-intro .photo {
+	padding: 10px;
+}
+.photo-et-intro img {
+	width: 120px;
+	margin-top: -40px;
+	border-radius: 20%;
+}
+.photo-et-intro p {
+	font-size: 1.1rem;
+	font-family: 'Lobster', cursive;
+}
+
+.cv-row {
+	width: 100%;
+	margin: 20px auto;
+	display: flex;
+	flex-wrap: wrap;
+	padding: 5px 4px;
+}
+.cv-column {
+	flex-direction: 25%;
+	max-width: 45%;
+	padding: 0 20px;
+}
+.cv-column div{
+	display: block;
+	position: relative;
+	padding-top: 20px;
+}
+.cv-column div:hover{
+	transform: scale(0.95);
+}
+.cv-column div h6{
+	background: #000;
+	color: #fff;
+	font-family: 'Lobster', cursive;
+	letter-spacing: 0.2rem;
+	border-radius: 10px;
+	text-align:center;
+}
+.cv-column div  span{
+	background: rgba(1, 151, 145, 0.5);
+	padding: 2px;
+}
+.cv-column div span,p {
+	font-family: cursive;
+	/*font-size: 0.9rem;*/
+}
+
+@media screen and (max-width: 900px){
+	.cv-column {
+		flex: 50%;
+		max-width: 50%;
+		padding-top: 20px;
+	}
+	.row,.cv-column div{
+		padding-top: 20px;
+	}
+}
+
+@media screen and (max-width: 600px){
+	.cv-column {
+		flex: 100%;
+		max-width: 100%;
+		padding-top: 20px;
+	}
+	.row,.cv-column div{
+		padding-top: 20px;
+	}
+}
