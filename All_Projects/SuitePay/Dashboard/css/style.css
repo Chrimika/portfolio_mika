@@ -1,0 +1,302 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Staatliches&display=swap');
+
+*{
+	padding: 0;
+	margin: 0;
+	font-family: arial, sans-serif;
+}
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 15px 30px;
+	background: #23242b;
+	color: #fff;
+}
+.u-name {
+	font-size: 20px;
+	padding-left: 17px;
+}
+.u-name b {
+	color: #127b8e;
+}
+.header i {
+	font-size: 30px;
+	cursor: pointer;
+	color: #fff;
+	transition: 800ms;
+}
+.header i:hover {
+	color: #127b8e;
+}
+.user-p {
+	text-align: center;
+	padding-left: 10px;
+	padding-top: 25px;
+}
+.user-p img {
+	width: 65px;
+	height: 70px;
+	border-radius: 50%;
+}
+.user-p h4 {
+	color: #ccc;
+	padding: 5px 0;
+}
+.side-bar {
+	width: 250px;
+	background: #262931;
+	min-height: 100vh;
+	transition: 800ms width;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.body {
+	display: inline-flex;
+	justify-content: center;
+	padding: 40px 0;
+}
+.section-1 {
+	width: 100%;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.pagination {
+	margin: 60px 0;
+	text-align: center;
+}
+.pagination a {
+	display: inline-block;
+	border: 2px solid #019791;
+	padding: 10px 15px;
+	font-size: 1.1rem;
+	cursor: pointer;
+	border-radius: 5px;
+	text-decoration: none;
+	transition: background 1s, color 500ms;
+	margin: 10px 50px;
+	color: black;
+}
+.pagination a:hover{
+	background: #019791;
+	color: #fff;
+}
+/*.section-1 h1 {
+	color: #eee3aa;
+	font-size: 60px;
+	font-family: 'Staatliches', cursive;
+	opacity: 75%;
+}
+.section-1 h1 span{
+	background: #f3a5bb;
+}
+
+.section-1 p {
+	color: #f3a5bb;
+	font-size: 20px;
+	background: #f3a5bb;
+	border-radius: 5px;
+	font-family: 'Lobster', cursive;
+	background: transparent;
+}*/
+.logo{
+	width: 130px;
+	height: 250px;
+}
+
+.bvn span{
+	color: #f5eea8;
+	font-size: 1.9rem;
+}
+
+.solde{
+	display: flex;
+	flex-direction: row;
+	padding: 0 20px;
+	box-shadow: 5px 3px 3px grey;
+	border-radius: 15px;
+	justify-content: center;
+	align-items: center;
+}
+.solde span{
+	display: inline-flex;
+	font-size: 1.8rem;
+	color: grey;
+	text-align: center;
+
+}
+.solde h1{
+	font-size: 4.3rem;
+	margin-top:100px;
+	font-family: couriel;
+
+}
+
+.expose{
+	display: inline-flex;
+	flex-flow: wrap;
+	padding: 30px;
+	justify-content: space-between;
+	justify-content: center;
+	align-items: center;
+	margin: 90px 0;
+	background: #b6dbe7;
+}
+.pics {
+	border: 2px solid #c6caeb;
+	border-radius: 21px;
+	margin: 20px 45px;
+}
+.img {
+	width: 200px;
+}
+.pics p{
+	/*margin-top: -110px;*/
+	width: 200px;
+	border-radius: 21px;
+	/*background-color: #C7EBE4;*/
+	text-align: center;
+
+}
+.para{
+	background: #298385;
+	color: #fff;
+	display: inline-flex;
+	border-radius: 12px;
+}
+.pics div{
+	display: flex;
+	justify-content: center;
+}
+
+.side-bar ul {
+	margin-top: 20px;
+	list-style: none;
+}
+.side-bar ul li {
+	font-size: 16px;
+	padding: 15px 0px;
+	padding-left: 20px;
+	transition: 800ms background;
+}
+.side-bar ul li:hover {
+	background: #127b8e;
+}
+.side-bar ul li a {
+	text-decoration: none;
+	color: #eee;
+	cursor: pointer;
+	letter-spacing: 1px;
+}
+.side-bar ul li a i {
+	display: inline-block;
+	padding-right: 10px;
+	font-size: 23px;
+}
+
+/*pour le dossier transaction*/
+.paymode1 {
+	width: 300px;
+	height: 220px;
+}
+.OM {
+	display: inline-flex;
+	flex-direction: row;
+	margin: 30px 20px;
+}
+.O{
+	margin-right: 30px;
+}
+.M{
+	margin-left: 30px;
+}
+.transcore {
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	box-shadow: 5px 3px 3px grey;
+	border-radius: 15px;
+	margin: 20px 0;
+	width: 100%;
+}
+.transcore h1{
+	color: grey;
+}
+.O,.M,.S{
+	border: 1px solid grey;
+	border-radius: 20px;
+}
+
+#nav-btn {
+	/*display: inline-block;*/
+	margin-left: 70px;
+	font-size: 20px;
+	transition: 500ms color;
+}
+#checkbox {
+	display: none;
+}
+#checkbox:checked ~ .body .side-bar {
+	width: 60px;
+}
+#checkbox:checked ~ .body .side-bar .user-p{
+	visibility: hidden;
+}
+#checkbox:checked ~ .body .side-bar a span{
+	display: none;
+}
+#checkbox:checked ~ .body .side-bar a i{
+	margin-left: -8px;
+	transition: 800ms ;
+}
+
+@media screen and (max-width: 460px){
+	.section-1 h1 {
+		font-size: 2.5rem;
+	}
+	.header{
+		font-size: 0.5rem;
+	}
+	.bvn span{
+	color: #f5eea8;
+	font-size: 1rem;
+	}
+	.logo {
+		width: 70px;
+		height: 100px;
+		margin-top: 20px;
+	}
+	.logo h1{
+		font-size: 0.1rem;
+	}
+	.solde h1{
+	font-size: 1.3rem;
+	margin-top:100px;
+	}
+	.solde span{
+	font-size: 1.3rem;
+	}
+	.transcore {
+	display: inline-flex;
+	justify-content: center;
+	flex-direction: column;
+	box-shadow: 5px 3px 3px grey;
+	border-radius: 15px;
+	margin: 20px 0;
+	
+	}
+	.transcore h1{
+		font-size: 1.3rem;
+	}
+	.paymode1 {
+	width: 300px;
+	height: 220px;
+}
+
+}	

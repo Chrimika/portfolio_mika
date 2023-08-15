@@ -1,0 +1,153 @@
+/*body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: url('../img/index2.png');
+}*/
+
+.cadre {
+	border: 3px solid #afa5cf;
+	width: 450px;
+	border-radius: 15px;
+}
+
+.header {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 1.8rem;
+	font-family: cursive;
+	/*color: #7F66A9;*/
+}
+
+.header span {
+	color: #afa5cf;
+	font-size: 2rem;
+	text-transform: uppercase;
+}
+
+.liens {
+	display: flex;
+	padding: 30px;
+	justify-content: center;
+}
+.liens a {
+	margin-left: 40px;
+	text-decoration: none;
+	border: 1px solid #afa5cf;
+	border-radius: 15px;
+	width: 130px;
+	padding: 2px;
+	color: #7F66A9;
+	transition: background 1s, color 500ms;
+}
+.liens a:hover{
+	background: #7F66A9;
+	color: white;
+}
+
+/* pour lindex*/
+.entete {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+
+}
+.entete{
+	text-align: center;
+}
+.logo{
+	
+	animation: levitate 2s linear 2s infinite alternate;
+}
+@keyframes levitate {
+	from{margin-top: 0px;}
+	to{margin-top: -25px; }
+}
+.h1 {
+	margin-top: -95px;
+}
+.entete p {
+	color: gray;
+}
+.expose{
+	display: flex;
+	flex-flow:wrap;
+	padding: 30px;
+	justify-content: space-between;
+	justify-content: center;
+	align-items: center;
+	margin: 90px 0;
+	background: #b6dbe7;
+}
+.pics {
+	border: 2px solid #c6caeb;
+	border-radius: 21px;
+	margin: 20px 45px;
+}
+.img {
+	width: 200px;
+}
+.pics p{
+	/*margin-top: -110px;*/
+	width: 200px;
+	border-radius: 21px;
+	/*background-color: #C7EBE4;*/
+	text-align: center;
+
+}
+.para{
+	background: #298385;
+	color: #fff;
+	display: inline-flex;
+	border-radius: 12px;
+}
+.pics div{
+	display: flex;
+	justify-content: center;
+}
+
+/*footer*/
+
+body {
+  font-family: Rubik,Arial,sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    overflow-x: hidden;
+    color: #607289;
+}
+
+h5 {
+    font-size: 1rem;
+    line-height: 1.375;
+  font-family: Rubik,Arial,sans-serif;
+    font-weight: 500;
+    color: #030929;
+}
+
+a {
+  color: #818494;
+  font-weight: 500;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+a:hover {
+  color: #007bff;
+  text-decoration: none;
+}
+
+footer {
+  background: #ebf4fa;
+}
+.logofoot{
+	height: 200px;
+	background: #C7EBE4;
+}
+.logsin {
+	display: flex;
+	flex-direction: column;
+	padding: 2px 0;
+	width: 100%;
+}
