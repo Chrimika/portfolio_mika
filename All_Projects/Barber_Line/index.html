@@ -28,6 +28,15 @@
 			color: #a7d7d3;
 			font-size: 4.5rem;
 		}
+		.btncoiffeur{
+			color: white;
+			background: #ff3131;
+			transition: background 500ms, color 500ms;
+		}
+		.btncoiffeur:hover{
+			background: #a7d7d3;
+			color: black;
+		}
 		.line{
 			color: #ff3131;
 		}
@@ -42,7 +51,7 @@
 			background: #323030;
 		}
 		.paragraphe{
-			font-size: 1.5rem;
+			font-size: 0.8rem;
 		}
 		h3{
 			color: #a7d7d3;
@@ -88,8 +97,10 @@
 	</nav>
 
 	<h1 class="container heading text-center my-5 border-bottom border-danger w-auto pb-4">Barber <span class="line">Line</span></h1>
-
-	<div class="container d-flex flex-wrap justify-content-center align-items-center">
+	<div class="container d-flex flex-row-reverse border-danger">
+		<button class="btn btncoiffeur">espace coiffeur</button>
+	</div>
+	<div class="container d-flex flex-wrap justify-content-center">
 		<div class="my-3">
 			<h3 class="text-center ">Des coiffeurs experimente</h3>
 			<div class="my-3 d-flex flex-wrap justify-content-center align-items-center">
@@ -121,13 +132,10 @@
 		</div>
 
 		
-		<div class="sider container w-auto rounded-5 h-50">
+		<div class="sider container w-auto rounded-5 my-5">
 			<div class="mb-4">
-			<a href="#">
-				<button class="btn bout"> <b>espace coiffeur</b></button>
-			</a>
-			<h1 class="text-center text-decoration-underline heading2 py-5 d-block my-5"> <i>A Propos</i></h1>
-			<p class="my-4 text-center text-light paragraphe">
+			<h1 class="text-center heading2 py-3 d-block my-2"> <i>A Propos</i></h1>
+			<p class="my-2 text-light paragraphe h-100">
 				<b>Barber Line est une plate-forme <br>
 				qui met a votre disposition un <br>
 				ensemble de coiffeurs et leurs <br>
