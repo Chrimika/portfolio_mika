@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=	, initial-scale=1.0">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+	<title>Accuile_coiffeur</title>
+	<style>	
+		.nvb{
+			background: #545454;
+			/*height: 80px;*/
+		}
+		.lien1{
+			background: #ff3131;
+		}
+		a{
+			text-decoration: none;
+		}
+		.logo{
+			width: 50px;
+			height: 50px;
+		}
+		.body{
+			background: #323030;
+		}
+		.heading{
+			color: #a7d7d3;
+			font-size: 4.5rem;
+		}
+		.line{
+			color: #ff3131;
+		}
+		.sider{
+			background: #ff3131;
+		}
+		.images{
+			width: 200px;
+		}
+		.heading2{
+			color: #a7d7d3;
+			background: #323030;
+		}
+		.paragraphe{
+			font-size: 0.8rem;
+		}
+		h3{
+			color: #a7d7d3;
+			/*opacity: 50%;*/
+		}
+		.btncoiffeur{
+		color: white;
+		background: #ff3131;
+		transition: background 500ms, color 500ms;
+		}
+		.btncoiffeur:hover{
+			background: #a7d7d3;
+			color: black;
+		}
+		.type{
+			font-size: 0.7rem;
+			color: white;
+		}
+		footer{
+			background: #545454;
+			height: 70px;
+		}
+		.bout{
+			height: 70px;
+			color: white;
+			font-size: 1.8rem;
+			background: #545454;
+			transition: background 500ms, color 500ms;
+		}
+		.bout:hover {
+			background: #a7d7d3;
+			color: black;
+		}
+		.foot{
+			font-size: 2rem;
+		}
+	</style>
+</head>
+<body class="body">
+	<nav class="nvb container d-flex flex-row justify-content-center align items-center sticky-sm-top ">	
+			
+			<!--<img src="img/logo.png" alt="" class="logo me-auto">-->
+		
+		<a href="index.html" class="text-light lien1 d-inline-flex justify-content-center align-items-center p-2 w-auto px-5">
+			Acceuil
+		</a>
+
+		<a href="register.html" class="text-light lien2 d-inline-flex justify-content-center align-items-center p-2 w-auto px-5">
+			S'inscrire
+		</a>
+
+		<a href="#" class="text-light lien3 d-inline-flex justify-content-center align-items-center p-2 w-auto px-5 text-center">
+			Liste <br>des clients			
+		</a>
+	</nav>
+
+	<h1 class="container heading text-center my-5 border-bottom border-danger w-auto pb-4">Barber <span class="line">Line</span><span class="type">coiffeur</span></h1>
+
+	<a href="../index.html">
+		<div class="container d-flex flex-row-reverse border-danger">
+		<button class="btn btncoiffeur">espace client</button>
+	</div>
+	</a>
+
+	<div class="container d-flex flex-column justify-content-center border-bottom border-danger text-light">
+		<h1 class="  my-3">Bienvenue Partenaire...</h1>
+		<p class="py-3">
+			Faites vous connaitre de par votre ville et <br>
+			gagnez en renom en tant que coiffeur qualifié <br>
+			en utilisant Barber Line...
+			<div class="d-flex flex-row align-items-center">
+				<li class="fa fa-sign-in text-danger h1"></li>
+				<p class="mx-2">inscrivez vous sur notre plateforme, <a href="php/register.php" class="text-warning">...inscription...</a></p>
+			</div>
+
+			<div class="d-flex flex-row align-items-center my-3">
+				<li class="fa fa-users text-danger h1"></li>
+				<p class="mx-2">Beneficiez d'un réseau de clients fidele</p>
+			</div>
+
+			<div class="d-flex flex-row align-items-center">
+				<li class="fa fa-calendar text-danger h1"></li>
+				<p class="mx-2">Les reservations ce feront celon votre emploie de temp</p>
+			</div>
+
+			<div class="d-flex flex-row align-items-center my-3">
+				<li class="fa fa-comments text-danger h1"></li>
+				<p class="mx-2">Communiquez avec le client à laide du chat</p>
+			</div>
+
+			
+		</p>
+	</div>
+
+	<footer class="footer d-flex flex-wrap justify-content-center align-items-center my-4">
+			<a href="">
+				<li class="fa fa-facebook px-5 foot">...</li>
+			</a>
+			<a href="">
+				<li class="fa fa-instagram px-5 text-danger foot">...</li>
+			</a>
+			<a href="">
+				<li class="fa fa-whatsapp px-5 text-success foot">...</li>
+			</a>
+	</footer>
+</body>
+</html>
