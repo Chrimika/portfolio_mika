@@ -57,10 +57,7 @@
 .entete{
 	text-align: center;
 }
-.logo{
-	
-	animation: levitate 2s linear 2s infinite alternate;
-}
+
 @keyframes levitate {
 	from{margin-top: 0px;}
 	to{margin-top: -25px; }
