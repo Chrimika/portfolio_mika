@@ -295,3 +295,6 @@
 	background: transparent;
 	color: #019791;
 }
+strong{
+	visibility: hidden;
+}
