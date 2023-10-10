@@ -44,25 +44,24 @@
 		<form action="#">
 			<div class="form-control">
 				<label for="name">Name</label>
-				<input type="text">
+				<input type="text" id="name" required="">
 			</div>
 			<div class="form-control">
 				<label for="Email">Email</label>
-				<input type="text">
+				<input type="text" id="email" required="">
 			</div>
 				
 			<div class="form-control">
 				<label for="Message">Message</label>
-				<textarea rows="10"></textarea>
+				<textarea rows="10" id="message" required=""></textarea>
 			</div>
 			<div class="btn-holder">
-				<button type="submit">Send</button>
+				<button type="submit" onclick="getInfo();">Send</button>
 			</div>
-			
 		</form>
 	</section>
-
-
-	<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+<script src="portfolio.js">
+	
+</script>
 </body>
 </html>
