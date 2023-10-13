@@ -16,10 +16,11 @@
     	}*/
     	.div1{
     		background: #000000;
+    		text-align: center;
+    		font-size: 0.3rem;
+    		font-family: cursive;
     	}
-    	.div2{
-    		background: #000000;
-    	}
+    	
     	.effet {
 			transition: transform 500ms;
 		}
@@ -28,40 +29,56 @@
 			/*width:150px;*/
 			transform: scale(1.05) ;
 		}
+		.background{
+			background: #c0c0c0;
+		}
+		.title{
+			font-family: arial;
+		}
+		.petit{
+			font-size: 1.2rem;
+		}
     	/*#FF2B2B  #00C4CC*/
     </style>
 	<title>Acceuil</title>
 </head>
-<body class="container text-center d-flex justify-content-center align-items-center py-5">
-	<div class="row  w-100">
+<body class="container-fluid p-5">
+	<h1 class="display-1">Dr <br><b class="title">Eric Ndongo</b></h1>
+	<div class="row  w-100 bg-primary-subtle p-3 py-4 d-flex justify-content-center align-items-center">
 
-		<div class="col-6 align-items-center effet">
+		<div class="col-6 align-items-center effet ">
 		<img src="img/1.jpg" alt="" class="rounded w-100">
 		</div>
-		<div class="col-6 display-1  effet">
-			<div class="d-flex flex-row w-100">
-				<div class="p-3 div1 effet m-1 rounded">
-					<img src="img/microphone.png" alt="" class="w-100">
+		<div class="col-6 effet">
+			<div class="d-flex flex-row w-100 text-light">
+				<div class="p-3 div1 effet m-1 rounded text-center">
+					<img src="img/microphone.png" alt="" class="w-100 ">
+					a_propos
 				</div>
-				<div class="p-3 div2 effet m-1 rounded">
+				<div class=" p-3 div1 effet m-1 rounded">
 					<img src="img/mortarboard.png" alt="" class="w-100">
+					realisations
 				</div>
 			</div>
-			<div class="d-flex flex-row w-100">
+			<div class="d-flex flex-row w-100 text-light">
 				
-				<div class="p-3 div2 effet m-1 rounded">
-					<img src="img/mortarboard.png" alt="" class="w-100">
+				<div class="p-3 div1 effet m-1 rounded">
+					<img src="img/mortarboard.png" alt="" class="w-100 mb-2">
+					parcours
 				</div>
 				<div class="p-3 div1 effet m-1 rounded">
 					<img src="img/microphone.png" alt="" class="w-100">
+					contactez <br>moi
 				</div>
 			</div>
-			<div class="d-flex flex-row w-100 ">
+			<div class="d-flex flex-row w-100 text-light">
 				<div class="p-3 div1 effet m-1 rounded">
 					<img src="img/microphone.png" alt="" class="w-100">
+					loisirs
 				</div>
-				<div class="p-3 div2 effet m-1 rounded">
+				<div class="p-3 div1 effet m-1 rounded">
 					<img src="img/mortarboard.png" alt="" class="w-100">
+					galerie
 				</div>
 			</div>
 		</div>
