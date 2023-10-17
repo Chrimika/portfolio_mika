@@ -15,9 +15,9 @@
     		
     	}*/
     	.div1{
-    		background: #000000;
+    		background: #ffffff;
     		text-align: center;
-    		font-size: 0.3rem;
+    		font-size: auto;
     		font-family: cursive;
     	}
     	
@@ -25,7 +25,7 @@
 			transition: transform 500ms;
 		}
     	.effet:hover{
-			height: 105%;
+			height: 110%;
 			/*width:150px;*/
 			transform: scale(1.05) ;
 		}
@@ -47,37 +47,75 @@
 	<div class="row  w-100 bg-primary-subtle p-3 py-4 d-flex justify-content-center align-items-center">
 
 		<div class="col-6 align-items-center effet ">
-		<img src="img/1.jpg" alt="" class="rounded w-100">
+			<div id="carouselExampleDark" class="carousel carousel-light slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="10000">
+      <img src="img/1.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5></h5>
+        <p></p>
+      </div>
+    </div>
+    <div class="carousel-item" data-bs-interval="2000">
+      <img src="img/4.jpeg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5></h5>
+        <p></p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="img/5.jpeg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5></h5>
+        <p></p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+		
 		</div>
 		<div class="col-6 effet">
-			<div class="d-flex flex-row w-100 text-light">
+			<div class="d-flex flex-row w-100 text-dark">
 				<div class="p-3 div1 effet m-1 rounded text-center">
-					<img src="img/microphone.png" alt="" class="w-100 ">
+					<img src="img/id.gif" alt="" class="w-100 ">
 					a_propos
 				</div>
 				<div class=" p-3 div1 effet m-1 rounded">
-					<img src="img/mortarboard.png" alt="" class="w-100">
+					<img src="img/presentation.gif" alt="" class="w-100">
 					realisations
 				</div>
 			</div>
-			<div class="d-flex flex-row w-100 text-light">
+			<div class="d-flex flex-row w-100 text-dark">
 				
 				<div class="p-3 div1 effet m-1 rounded">
-					<img src="img/mortarboard.png" alt="" class="w-100 mb-2">
+					<img src="img/share.gif" alt="" class="w-100 mb-2 d-inline-block">
 					parcours
 				</div>
 				<div class="p-3 div1 effet m-1 rounded">
-					<img src="img/microphone.png" alt="" class="w-100">
-					contactez <br>moi
+					<img src="img/phone.gif" alt="" class="w-100 d-inline-block">
+					contact
 				</div>
 			</div>
-			<div class="d-flex flex-row w-100 text-light">
+			<div class="d-flex flex-row w-100 text-dark">
 				<div class="p-3 div1 effet m-1 rounded">
-					<img src="img/microphone.png" alt="" class="w-100">
+					<img src="img/target.gif" alt="" class="w-100">
 					loisirs
 				</div>
 				<div class="p-3 div1 effet m-1 rounded">
-					<img src="img/mortarboard.png" alt="" class="w-100">
+					<img src="img/video.gif" alt="" class="w-100">
 					galerie
 				</div>
 			</div>
